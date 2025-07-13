@@ -303,6 +303,10 @@ elif selection == "Prompt Library":
 # --------------------------- Footer ---------------------------
 
 st.markdown("""
----
-© 2025 • University Application Assistant. Prompt engineering powered by ChatGPT (free tier).
-""")
+    <hr/>
+    <p style='text-align:center; font-size:0.9em;'>
+        iKronyx with ❤️ using <a href='https://streamlit.io' target='_blank'>Streamlit</a> •
+        Last updated {today}
+    </p>
+    """.format(today=date.today().strftime("%b %d, %Y")),
+    unsafe_allow_html=True,)
