@@ -1,0 +1,1 @@
+This is a realistic and commercializable idea, especially in regions where students are applying for foreign universities and struggle with personal statements, SOPs, and selecting programs.
